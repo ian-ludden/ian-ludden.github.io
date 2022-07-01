@@ -1,29 +1,33 @@
-image: assets/img/smile.png
-username: Christoph Jabs
-description: creator of the Grape-Academic-Theme! Grape-Academic-Theme is a modification of the Grape-Theme by naye0ng, making it more suitable as an academic portfolio.
-webpage: https://chrjabs.github.io
+image: assets/img/ianludden_square.jpg
+username: Ian Ludden
+description: PhD Candidate in Computer Science at the University of Illinois Urbana-Champaign. This web page is under construction; please see [my old site](http://iludden2.web.engr.illinois.edu/). 
+webpage: https://ian-ludden.github.io
 experience:
-  - start: 2017-05-03
-    end: 2018-05-06
-    experience : company name, title
+  - start: 2017-08
+    end: 2023-05 (Expected)
+    experience : UIUC, Computer Science PhD Program
+  - start: 2013-08
+    end: 2016-11
+    experience : Rose-Hulman Institute of Technology, B.S. Computer Engineering and Mathematics
 interests:
-  - Interest 1
-  - Interest 2
-skills: 
-  - skill: HTML5 & CSS
-    value: 85  # Percent value
+  - Combinatorial Optimization
+  - Algorithmic Game Theory
+  - Graph Theory
+#skills: 
+ # - skill: HTML5 & CSS
+  #  value: 85  # Percent value
 social:
-  email:  # Full email address, e.g. "sample@google.com"
-  orcid: 
-  scholar: 
+  email: iludden2@illinois.edu # Full email address, e.g. "sample@google.com"
+  orcid: 0000-0002-5913-1123
+  scholar: https://scholar.google.com/citations?user=sL6jA24AAAAJ&hl=en&oi=ao
   publons: 
   research_gate: 
   linkedin:  # Full URL 
-  github: chrjabs
+  github: ian-ludden
   gitlab: 
-  bitbucket: chrjabs
+  bitbucket: 
   google_plus:
-  twitter: chrjabs
+  twitter: 
   youtube:
   facebook:
   instagram:
