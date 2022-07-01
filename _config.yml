@@ -1,31 +1,31 @@
 # Site Settings
-baseurl: "/Grape-Academic-Theme"
+baseurl: ""
 
 # Blog Setting
-blog: True
+blog: False
 
 # Language of the website
 lang: en
 
 # Search engine optimization settings
-title: Grape Academic Theme
-tagline: A jekyll theme for academic portfolios
-description: The demonstration page for the Grape Academic Theme, a jekyll theme for academic portfolios based on the Grape Theme.
-author: Christoph Jabs (chrjabs)
-twitter:
-  username: chrjabs
-  card: A jekyll theme for academic portfolios
-logo: /assets/img/smile.png
-social:
-  name: Christoph Jabs
-  links:
-    - https://twitter.com/chrjabs
-    - https://github.com/chrjabs
-locale: en_GB
+title: Ian Ludden
+tagline: Professional website of Ian Ludden, PhD Candidate in Computer Science
+description: Ian Ludden's professional website, built with a jekyll theme developed for academic portfolios developed by Christoph Jabs (chrjabs). 
+author: Ian Ludden (ian-ludden)
+#twitter:
+#  username: chrjabs
+#  card: A jekyll theme for academic portfolios
+#logo: /assets/img/smile.png
+#social:
+#  name: Christoph Jabs
+#  links:
+#    - https://twitter.com/chrjabs
+#    - https://github.com/chrjabs
+locale: en_US
 
 # Page Settings
 theme_settings:
-  title: Grape Academic Theme
+  title: Ian Ludden
 
   experience_title: EXPERIENCE
   interests_title: RESEARCH INTERESTS
@@ -51,8 +51,8 @@ scholar:
   bibliography_template: pubstemplate
   style: apa
   locale: en
-  last_name: Me
-  first_name: [Myself, M.]
+  last_name: Ludden
+  first_name: [Ian G., I.G.]
   sort_by: year,month
   order: descending,ascending
 
