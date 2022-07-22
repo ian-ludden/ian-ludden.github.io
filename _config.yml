@@ -4,6 +4,9 @@ baseurl: ""
 # Blog Setting
 blog: False
 
+# Projects Setting
+projects: False
+
 # Language of the website
 lang: en
 
@@ -29,8 +32,8 @@ theme_settings:
 
   experience_title: EXPERIENCE
   interests_title: RESEARCH INTERESTS
-  skills_title: SKILLS
-  projects_title: PROJECTS
+  skills_title: ""
+  projects_title: ""
   recentpubs_title: RECENT PUBLICATIONS
 
 # Pagination

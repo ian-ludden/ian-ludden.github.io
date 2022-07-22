@@ -1,10 +1,17 @@
 - presentation:
-    title: A nice presentation
-    event: Fancy conference
-    date: 05/2022
-    comment: This is some comment text that can do _Markdown_
-    slides: https://www.google.com # potential link to slides
+    title: Analyzing and Modeling the Define-Combine Procedure for Political Redistricting
+    event: INFORMS Computing Society Conference (ICS)
+    date: Jan 2022
+    #comment: This is some comment text that can do _Markdown_
+    #slides: https://www.google.com # potential link to slides
 - presentation:
-    title: A second presentation
-    event: Another conference
-    date: 03/2022
+    title: "3-D Geo-graphs: Efficient Flip Verification for 3-D
+Graph Partitioning"
+    event: INFORMS Annual Meeting, Session WE25 (Chair)
+    date: Oct 2021
+    #comment: This is some comment text that can do _Markdown_
+    #slides: https://www.google.com # potential link to slides
+- presentation:
+    title: A Bisection Protocol for Political Redistricting
+    event: INFORMS Annual Meeting, Session WC43
+    date: Oct 2019

@@ -1,3 +1,21 @@
-"Others":
-  - firstname: ["Them", "T."]
-    url: https://www.google.com/search?q=them+others
+"Jacobson":
+  - firstname: ["Sheldon", "S.", "Sheldon H.", "S.H."]
+    url: http://shj.cs.illinois.edu
+"King":
+  - firstname: ["Douglas", "D.", "Douglas M.", "D.M."]
+    url: https://ise.illinois.edu/directory/profile/dmking
+"Swamy":
+  - firstname: ["Rahul", "R."]
+    url: https://publish.illinois.edu/rahulswa/
+"Pavlik":
+  - firstname: ["John", "J.", "John A.", "J.A."]
+    url: https://cyber.army.mil/Work-Areas/Research-Team/
+"Khatibi": 
+  - firstname: ["Arash", "A."]
+    url: https://scholar.google.com/citations?user=_Dl--BwAAAAJ&hl=en
+"Jokela":
+  - firstname: ["Janet", "J.", "Janet A.", "J.A."]
+    url: https://www.linkedin.com/in/janet-jokela-291bab3/
+"Sewell":
+  - firstname: ["Edward", "E.", "Edward C.", "E.C."]
+    url: https://www.siue.edu/artsandsciences/math/faculty.shtml

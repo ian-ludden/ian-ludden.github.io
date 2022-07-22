@@ -1,11 +1,11 @@
 image: assets/img/ianludden_square.jpg
 username: Ian Ludden
-description: PhD Candidate in Computer Science at the University of Illinois Urbana-Champaign. This web page is under construction; please see [my old site](http://iludden2.web.engr.illinois.edu/). 
+description: PhD Candidate in the [Theory and Algorithms](https://publish.illinois.edu/theory-cs/) research area of the [Computer Science](https://cs.illinois.edu) department at the [University of Illinois Urbana-Champaign](https://illinois.edu). This web page is under construction; please see [my old site](http://iludden2.web.engr.illinois.edu/). 
 webpage: https://ian-ludden.github.io
 experience:
   - start: 2017-08
     end: 2023-05 (Expected)
-    experience : UIUC, Computer Science PhD Program
+    experience : University of Illinois Urbana-Champaign, Ph.D. Computer Science
   - start: 2013-08
     end: 2016-11
     experience : Rose-Hulman Institute of Technology, B.S. Computer Engineering and Mathematics
