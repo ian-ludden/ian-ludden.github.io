@@ -1,6 +1,7 @@
 image: assets/img/ianludden_square.jpg
 username: Ian Ludden
-description: PhD Candidate in the [Theory and Algorithms](https://publish.illinois.edu/theory-cs/) research area of the [Computer Science](https://cs.illinois.edu) department at the [University of Illinois Urbana-Champaign](https://illinois.edu). This web page is under construction; please see [my old site](http://iludden2.web.engr.illinois.edu/). 
+description: PhD Candidate in the [Theory and Algorithms](https://publish.illinois.edu/theory-cs/) research area of the [Computer Science](https://cs.illinois.edu) department at the [University of Illinois Urbana-Champaign](https://illinois.edu). 
+cv: "[Curriculum Vitae (CV), PDF](assets/ian_ludden_cv.pdf), updated 23 Aug 2022"
 webpage: https://ian-ludden.github.io
 experience:
   - start: 2017-08
@@ -13,6 +14,7 @@ interests:
   - Combinatorial Optimization
   - Algorithmic Game Theory
   - Graph Theory
+  - Health Care & Sports Analytics
 #skills: 
  # - skill: HTML5 & CSS
   #  value: 85  # Percent value
