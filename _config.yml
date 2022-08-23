@@ -29,6 +29,9 @@ locale: en_US
 # Page Settings
 theme_settings:
   title: Ian Ludden
+  profile:
+    username: Ian Ludden
+
 
   experience_title: EXPERIENCE
   interests_title: RESEARCH INTERESTS

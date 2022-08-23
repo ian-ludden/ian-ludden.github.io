@@ -19,16 +19,21 @@
         li {
             font-size: 1.05rem;
             margin-bottom: 1.5rem;
-            .title {
+            .course {
                 font-weight: bolder;
                 font-style: normal;
-            }
-            .event {
             }
             .date {
                 font-style: normal;
                 margin-left: 0.5rem;
             }
+        }
+    }
+    ul.term-list {
+        list-style-type: none;
+        li {
+            font-size: 0.85rem;
+            margin-bottom: 0.5rem;
         }
     }
 }

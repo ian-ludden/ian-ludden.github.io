@@ -8,14 +8,26 @@ layout: page
     {% for _ in site.data.teaching %}
       {% assign teaching = _.teaching %}
       <li>
-        <em class="title">{{ teaching.title }}</em> at <em class="event">{{ teaching.event }}</em> <em class="date">({{ teaching.date }})</em>
-        <p class="comment">{{ teaching.comment | markdownify }}</p>
-        <div class="links">
-          {%- if teaching.slides %}
-            [<a href="{{ teaching.slides }}" class="btn btn-sm z-depth-0" role="button">Slides</a>]
-          {%- endif %}
-        </div>
+        <em class="course">{{ teaching.course }}</em>
+        <ul class="term-list">
+            {% for term in teaching.terms %}
+            <li>
+                {% if term.excellent %}
+                    <span>&dagger;</span>
+                {% endif %}
+                {%- if term.site %}
+                    <a href="{{ term.site }}" class="btn btn-sm z-depth-0 term" role="button">{{ term.termname }}</a>
+                {%- else %}
+                    <span class="term">{{ term.termname }}</span> 
+                {%- endif %}
+                
+                <em class="jobtitle">({{ term.title }})</em>
+                <!-- <p class="comment">{{ term.comment | markdownify }}</p> -->
+            </li>
+            {% endfor %}
+        </ul>
       </li>
     {% endfor %}
   </ol>
+  <p>&dagger; &mdash; Recognized for excellent <a href="https://citl.illinois.edu/citl-101/measurement-evaluation/teaching-evaluation/teaching-evaluations-(ices)/teachers-ranked-as-excellent">teaching evaluations</a></p>
 </div>
