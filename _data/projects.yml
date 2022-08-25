@@ -5,8 +5,8 @@
     image:
       path: "portfolio.png" # path: assets/project/
       alt: "A screenshot of the portfolio page"
-    date: 05/2022 &ndash; Developing
-    title: Grape-Theme
+    date: Summer 2018 &ndash; Present (In revision with journal)
+    title: The Bisection Protocol
     summary: Academic portfolio jekyll theme.
     description: A modification of the Grape-Theme for jekyll to be useable as an academic portfolio.
     contents:
@@ -34,9 +34,35 @@
 - project:
     print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
     modal: True # If 'True' is selected, modal can open in 'portfolio.html'. 
-    url:  # Full URL
-    image: # path: assets/project/
-    date: 06/2019 &ndash; Developing
-    title: Dummy project
-    summary: This is a Dummy
-    description:  
+    url: https://bracketodds.cs.illinois.edu/ # Full URL
+    image: 
+      path: bracketodds_header.png # path: assets/project/
+    date: 08/2017 &ndash; Present
+    title: March Madness Analytics
+    summary: Modeling the NCAA Division I Men's & Women's Basketball Tournaments
+    description: As a side project throughout my graduate studies, I have contributed to our lab's ongoing public outreach project, BracketOdds, which engages the public in probability and statistics related to March Madness. 
+    contents:
+      - title: 1. Power Model paper (2017-2020)
+        description: I led an analysis of new models for generating pools of brackets for the men's March Madness tournament. 
+                     Our work was published in the <a class="btn btn-sm z-depth-0" role="button" href="https://doi.org/10.1515/jqas-2019-0022"><em>Journal of Quantitative Analysis in Sports</em></a>. 
+      - title: 2. Women's bracket generator (2018-2019)
+        description: I mentored CS undergraduate Abhinav Singh in adding a women's tournament bracket generator to <a class="btn btn-sm z-depth-0" role="button" href="https://bracketodds.cs.illinois.edu/">BracketOdds</a>.
+      - title: 3. Undergraduate mentoring (2019-2020)
+        description: I mentored CS undergraduate An-Jie "Andy" Tu on a project exploring alternative bracket sampling approaches. The project helped Andy learn about the research process before applying to graduate school. 
+      - title: 4. Undergraduate mentoring (2020-2021)
+        description: I supervised CS undergraduates Kaahan Motwani and Andrea Roy on a web development project for <a class="btn btn-sm z-depth-0" role="button" href="https://bracketodds.cs.illinois.edu/">BracketOdds</a>. 
+                     The students implemented the Final Four and Elite Eight sampling models from the Power Model paper and streamlined the men's and women's simulators into one webpage. 
+
+- project:
+    print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
+    modal: True # If 'True' is selected, modal can open in 'portfolio.html'. 
+    url: https://doi.org/10.1007/s10729-022-09606-3 # Full URL. TODO : GitHub link
+    image: 
+      path: excess_deaths_Y2vsY1_Total.png # "assets/project/" is prefix
+    date: 11/2021 &ndash; 08/2022
+    title: Pandemic Excess Deaths Analysis
+    summary: Data exploration using CDC provisional COVID-19 mortality reports
+    description: This project studies trends in death risks for 22 sex and age subgroups, with and without COVID-19, in the first two years of the COVID-19 pandemic in the United States. The methodology follows <a class="btn btn-sm z-depth-0" role="button" href="https://doi.org/10.1007/s10729-021-09570-4">a 2021 study</a> by my collaborators, Prof. Jacobson and Dr. Jokela. 
+    contents:
+      - title: Peer-reviewed paper
+        description: Our study, titled <a class="btn btn-sm z-depth-0" role="button" href="https://doi.org/10.1007/s10729-022-09606-3">"Excess deaths by sex and Age Group in the first two years of the COVID-19 pandemic in the United States"</a>, was published as a Current Opinion article in <em>Health Care Management Science</em>. 
