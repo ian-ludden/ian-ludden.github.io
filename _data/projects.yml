@@ -3,33 +3,48 @@
     modal: True # If 'True' is selected, modal can open in 'portfolio.html'. 
     url: https://github.com/chrjabs/Grape-Academic-Theme # Full URL
     image:
-      path: "portfolio.png" # path: assets/project/
-      alt: "A screenshot of the portfolio page"
-    date: Summer 2018 &ndash; Present (In revision with journal)
-    title: The Bisection Protocol
-    summary: Academic portfolio jekyll theme.
-    description: A modification of the Grape-Theme for jekyll to be useable as an academic portfolio.
+      # path: "portfolio.png" # path: assets/project/
+      # alt: "A screenshot of the portfolio page"
+    date: Summer 2018 &ndash; Present
+    title: Redistricting Games
+    summary: Applications of algorithmic game theory to political redistricting
+    description: The core of my dissertation work has been a series of projects applying techniques from algorithmic game theory (AGT), operations research (OR), and graph theory to political redistricting. 
     contents:
-        - title: 1. Portfolio Page
-          image:
-            path: portfolio.png
-            alt: "A screenshot of the portfolio page"
-          description: <li>Concise portfolio page</li>
-            <li>Recent publications</li>
-            <li>Projects</li>
-        - title: 2. Optional Blog Functionality
-          image:
-            path: home.png
-            alt: "A screenshot of the blog page"
-          description: <li>Responsive Layout</li>
+        - title: 1. The Bisection Protocol
+          # image:
+          #   path: portfolio.png
+          #   alt: "A screenshot of the portfolio page"
+          description: <li>TODO</li>
+        - title: 2. The Define-Combine Procedure
+          # image:
+          #   path: home.png
+          #   alt: "A screenshot of the blog page"
+          description: <li>TODO</li>
             <li>Tags</li> 
             <li>Pagination</li>
-        - title: 3. Tags Page
-          image:
-            path: tags.png
-            alt: "A screenshot of the tags page"
-          description: <li>Responsive Layout</li> 
-            <li>Tags</li> 
+        - title: 3. Recursive Bisections and Perfect Hierarchical Matchings
+          # image:
+          #   path: tags.png
+          #   alt: "A screenshot of the tags page"
+          description: <li>TODO</li> 
+        - title: 4. Monte Carlo Tree Search for Political Redistricting Games
+          description: <li>TODO</li>
+
+- project:
+    print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
+    modal: True # If 'True' is selected, modal can open in 'portfolio.html'. 
+    url: https://doi.org/10.1007/s10729-022-09606-3 # Full URL. TODO : GitHub link
+    image: 
+      path: excess_deaths_Y2vsY1_Total.png # "assets/project/" is prefix
+    date: 11/2021 &ndash; 08/2022
+    title: Pandemic Excess Deaths Analysis
+    summary: Data exploration using CDC provisional COVID-19 mortality reports
+    description: This project studies trends in death risks for 22 sex and age subgroups, with and without COVID-19, in the first two years of the COVID-19 pandemic in the United States. The methodology follows <a class="btn btn-sm z-depth-0" role="button" href="https://doi.org/10.1007/s10729-021-09570-4">a 2021 study</a> by my collaborators, Prof. Jacobson and Dr. Jokela. 
+    contents:
+      - title: Peer-reviewed paper
+        description: Our study, titled <a class="btn btn-sm z-depth-0" role="button" href="https://doi.org/10.1007/s10729-022-09606-3">"Excess deaths by sex and Age Group in the first two years of the COVID-19 pandemic in the United States"</a>, was published as a Current Opinion article in <em>Health Care Management Science</em>. 
+      - title: Related opinion article
+        description: We also published <a class="btn btn-sm z-depth-0" role="button" href="https://www.medpagetoday.com/opinion/second-opinions/100388">a related opinion article</a> in MedPage Today. 
 
 - project:
     print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
@@ -52,17 +67,3 @@
       - title: 4. Undergraduate mentoring (2020-2021)
         description: I supervised CS undergraduates Kaahan Motwani and Andrea Roy on a web development project for <a class="btn btn-sm z-depth-0" role="button" href="https://bracketodds.cs.illinois.edu/">BracketOdds</a>. 
                      The students implemented the Final Four and Elite Eight sampling models from the Power Model paper and streamlined the men's and women's simulators into one webpage. 
-
-- project:
-    print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
-    modal: True # If 'True' is selected, modal can open in 'portfolio.html'. 
-    url: https://doi.org/10.1007/s10729-022-09606-3 # Full URL. TODO : GitHub link
-    image: 
-      path: excess_deaths_Y2vsY1_Total.png # "assets/project/" is prefix
-    date: 11/2021 &ndash; 08/2022
-    title: Pandemic Excess Deaths Analysis
-    summary: Data exploration using CDC provisional COVID-19 mortality reports
-    description: This project studies trends in death risks for 22 sex and age subgroups, with and without COVID-19, in the first two years of the COVID-19 pandemic in the United States. The methodology follows <a class="btn btn-sm z-depth-0" role="button" href="https://doi.org/10.1007/s10729-021-09570-4">a 2021 study</a> by my collaborators, Prof. Jacobson and Dr. Jokela. 
-    contents:
-      - title: Peer-reviewed paper
-        description: Our study, titled <a class="btn btn-sm z-depth-0" role="button" href="https://doi.org/10.1007/s10729-022-09606-3">"Excess deaths by sex and Age Group in the first two years of the COVID-19 pandemic in the United States"</a>, was published as a Current Opinion article in <em>Health Care Management Science</em>. 
