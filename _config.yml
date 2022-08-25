@@ -5,7 +5,7 @@ baseurl: ""
 blog: False
 
 # Projects Setting
-projects: False
+projects: True
 
 # Language of the website
 lang: en
@@ -37,7 +37,7 @@ theme_settings:
   interests_title: RESEARCH INTERESTS
   awards_title: AWARDS
   skills_title: ""
-  projects_title: ""
+  projects_title: PROJECTS
   recentpubs_title: RECENT PUBLICATIONS
 
 # Pagination
