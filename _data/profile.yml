@@ -1,12 +1,15 @@
 image: assets/img/ian_ludden_sep2022_square.jpg
 username: Ian Ludden
-description: PhD Candidate in the [Theory and Algorithms](https://publish.illinois.edu/theory-cs/) research area of the [Computer Science](https://cs.illinois.edu) department at the [University of Illinois Urbana-Champaign](https://illinois.edu). Member of the [Institute for COmputational Redistricting (ICOR)](http://redistricting.cs.illinois.edu). 
-cv: "[Curriculum Vitae (CV), PDF](assets/ian_ludden_cv.pdf), updated 13 June 2023"
+description: Assistant Professor of [Computer Science and Software Engineering](https://www.rose-hulman.edu/academics/academic-departments/computer-science-software-engineering/index.html) at [Rose-Hulman Institute of Technology](https://www.rose-hulman.edu). 
+cv: "[Curriculum Vitae (CV), PDF](assets/ian_ludden_cv.pdf), updated 02 Aug 2023"
 webpage: https://ian-ludden.github.io
 experience:
+  - start: 2023-08
+    end: present
+    experience : Rose-Hulman Institute of Technology, Assistant Professor of CSSE
   - start: 2017-08
-    end: 2023-05 (Expected)
-    experience : University of Illinois Urbana-Champaign, Ph.D. Computer Science
+    end: 2023-08
+    experience : University of Illinois Urbana-Champaign, Ph.D. in Computer Science (Theory and Algorithms Area)
   - start: 2013-08
     end: 2016-11
     experience : Rose-Hulman Institute of Technology, B.S. Computer Engineering and Mathematics
@@ -23,7 +26,7 @@ awards:
  # - skill: HTML5 & CSS
   #  value: 85  # Percent value
 social:
-  email: iludden2@illinois.edu # Full email address, e.g. "sample@google.com"
+  email: luddenig@rose-hulman.edu # Full email address, e.g. "sample@google.com"
   orcid: 0000-0002-5913-1123
   scholar: https://scholar.google.com/citations?user=sL6jA24AAAAJ&hl=en&oi=ao
   publons: 
