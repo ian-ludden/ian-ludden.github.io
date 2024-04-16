@@ -3,6 +3,104 @@
 References
 ==========
 
+
+@Article{Swamy2024,
+  author    = {Swamy, Rahul and King, Douglas M. and Ludden, Ian G. and Dobbs, Kiera W. and Jacobson, Sheldon H.},
+  journal   = {Socio-Economic Planning Sciences},
+  title     = {A practical optimization framework for political redistricting: A case study in Arizona},
+  year      = {2024},
+  issn      = {0038-0121},
+  month     = apr,
+  pages     = {101836},
+  volume    = {92},
+  doi       = {https://doi.org/10.1016/j.seps.2024.101836},
+  groups    = {RedistrictingMetrics, Optimization},
+  publisher = {Elsevier BV}, 
+  url       = {https://doi.org/10.1016/j.seps.2024.101836}, 
+  abstract  = {Following the decennial census, 
+  each state in the U.S. redraws its congressional and 
+  state legislative district boundaries, 
+  which must satisfy various legal criteria. 
+  For example, Arizona's Constitution describes six legal criteria, 
+  including contiguity, population balance, competitiveness, 
+  compactness, and the preservation of communities of interest, 
+  political subdivisions and majority-minority districts, 
+  each of which is to be enforced "to the extent practicable". 
+  Optimization algorithms are well suited to draw district maps, 
+  although existing models and methods have limitations 
+  that inhibit their ability to draw legally-valid maps. 
+  Adapting existing optimization methods presents two major challenges: 
+  the complexity of modeling to achieve multiple and subjective criteria, 
+  and the computational intractability when dealing with 
+  large redistricting input graphs. 
+  In this paper, we present a multi-stage optimization framework 
+  tailored to redistricting in Arizona. 
+  This framework combines key features from existing methods, 
+  such as a multilevel algorithm that reduces graph input sizes 
+  and a larger local search neighborhood that encourages 
+  faster exploration of the solution space. 
+  This framework heuristically optimizes geographical compactness 
+  and political competitiveness while ensuring that 
+  other criteria in Arizona's Constitution are satisfied 
+  relative to existing norms. 
+  Compared to Arizona's enacted map (CD118) to be used until 2032, 
+  the most compact map produced by the algorithm is 41\% more compact, 
+  and the most competitive map has five more competitive districts. 
+  To enable accessibility and to promote future research, 
+  we have created Optimap, a publicly accessible tool 
+  to interact with a part of this framework. 
+  Beyond the creation of these maps, 
+  this case study demonstrates the positive impact of 
+  adapting optimization-based methodologies 
+  for political redistricting in practice.}, 
+  bibtex_show = true
+}
+
+@Article{Dobbs2024,
+  author    = {Dobbs, Kiera W. and Swamy, Rahul and King, Douglas M. and Ludden, Ian G. and Jacobson, Sheldon H.},
+  journal   = {INFORMS Journal on Applied Analytics},
+  title     = {An Optimization Case Study in Analyzing Missouri Redistricting},
+  year      = {2024},
+  issn      = {2644-0873},
+  month     = mar,
+  number    = {2},
+  pages     = {162--187},
+  volume    = {54},
+  doi       = {https://doi.org/10.1287/inte.2022.0037},
+  url       = {https://doi.org/10.1287/inte.2022.0037},
+  groups    = {RedistrictingMetrics},
+  publisher = {Institute for Operations Research and the Management Sciences (INFORMS)},
+  abstract  = {Every 10 years, U.S. states redraw their congressional and 
+  state legislative district plans. 
+  This process decides the political landscape for the subsequent 10 years. 
+  Prior to the 2021 redistricting cycle, 
+  Missouri enacted new criteria for state legislative districts. 
+  The Missouri League of Women Voters (LWV-MO) 
+  contacted the authors to analyze the potential impact 
+  of these new criteria on the map-drawing process. 
+  We apply recombination (a spanning tree method) within 
+  a local search optimization framework to analyze 
+  the interplay between political geography, constitutional requirements, 
+  and political fairness in Missouri. 
+  We use this framework to produce district plans that 
+  satisfy the new criteria and prioritize different aspects of fairness. 
+  The results, quantified by several measures of fairness, 
+  reveal an inherent Republican advantage in Missouri 
+  because of the state's political geography 
+  and constitutional requirements. 
+  We conclude that Missouri's political geography and 
+  constitutional requirements prevent the optimization framework 
+  from substantially improving political fairness 
+  in state legislative plans. 
+  In contrast, the framework can substantially 
+  improve political fairness in Missouri congressional plans, 
+  which are not subject to the new requirements. 
+  The LWV-MO used this work to advocate for fairness and transparency 
+  in their testimonies for the Missouri redistricting commission's 
+  public hearings.}, 
+  bibtex_show  = true
+}
+
 @Article{Ludden2023,
   title = {3D geo-graphs: Efficient flip verification for the spherical zoning problem},
   journal = {Discrete Applied Mathematics},
@@ -11,7 +109,7 @@ References
   year = {2023},
   issn = {0166-218X},
   doi = {https://doi.org/10.1016/j.dam.2023.07.004},
-  url = {https://authors.elsevier.com/a/1hR-B,3nuHsmXI},
+  url = {https://doi.org/10.1016/j.dam.2023.07.004},
   author = {Ian G. Ludden and Douglas M. King and Sheldon H. Jacobson},
   keywords = {Graph partitioning, Combinatorial topology, Combinatorial optimization, Local search optimization, 3D clustering},
   abstract = {The Spherical Zoning Problem (SZP) seeks to partition a finite 3D volume comprised of convex polytope cells, or units, into k zones such that each zone’s surface is spherical (i.e., homeomorphic to a sphere). A special case of the classical Connected Graph Partition Problem, SZP is motivated by applications in 3D geospatial partitioning such as airspace sectorization and oceanographic clustering. For general graph partitioning problems, local search optimization often considers the flip operation, which transfers one cell from its current zone, or part, to a neighboring zone in each iteration. Applying local search optimization to SZP requires new computational methods to assess flip feasibility; methods tailored to planar graph partitioning (e.g., for geographic districting) break down when faced with the spherical zones constraint due to inherent complexities when extending from 2D to 3D environments. This paper introduces the 3D geo-graph, a model for enforcing zone sphericity during a local search flip for solving SZP. The time complexity of SZP flip verification with the 3D geo-graph is, in the worst case, linear in the number of cells sharing some boundary with the flipped cell and linearithmic in the number of faces, edges, and vertices on the cell’s surface. Computational experiments on space-filling honeycombs demonstrate that the 3D geo-graph enables efficient flip verification for large-scale SZP instances.}, 
@@ -22,11 +120,12 @@ References
   author   = {Ian G. Ludden and Rahul Swamy and Douglas M. King and Sheldon H. Jacobson},
   journal  = {INFORMS Journal on Optimization},
   title    = {A Bisection Protocol for Political Redistricting},
-  year     = {2022},
-  number   = {0}, 
-  volume   = {0}, 
-  doi      = {10.1287/ijoo.2022.0084}, 
-  url      = {https://pubsonline.informs.org/doi/abs/10.1287/ijoo.2022.0084}, 
+  year     = {2023},
+  number   = {5}, 
+  volume   = {3}, 
+  pages    = {233-255}, 
+  doi      = {https://doi.org/10.1287/ijoo.2022.0084}, 
+  url      = {https://doi.org/10.1287/ijoo.2022.0084}, 
   abstract = {Political redistricting in the United States is the process of drawing congressional and state legislative district boundaries. This work introduces the bisection protocol, a two-player, zero-sum, extensive-form game motivated by political redistricting in which two players alternately divide pieces of a region in half (up to rounding) to obtain a district plan. A subgame perfect Nash equilibrium is presented for the protocol in a relaxed continuous nongeometric setting, and a recurrence is given for the optimal strategies. The bisection protocol is compared with the recently proposed I-cut-you-freeze protocol across a variety of standard fairness metrics. A hardness result is presented for the bisection protocol in the more realistic discrete geometric setting along with exact equilibrium strategies for small grid graphs. Because equilibrium computation is intractable for practical instances, heuristics are developed for both protocols that model players' drawing strategies as mixed-integer linear programs. When the heuristics are applied to congressional redistricting in Iowa with counties preserved, both protocols produce district plans that are fairer (according to three popular metrics) than Iowa's 115th congressional districts. Finally, the bisection heuristic is used to generate congressional district plans from census tracts for 18 states, demonstrating its potential for practical use.},
   bibtex_show = true
 }
@@ -46,58 +145,58 @@ References
 }
 
 @article{Pavlik2022,
-title = {SARS-CoV-2 aerosol risk models for the Airplane Seating Assignment Problem},
-journal = {Journal of Air Transport Management},
-volume = {99},
-pages = {102-175},
-year = {2022},
-issn = {0969-6997},
-doi = {https://doi.org/10.1016/j.jairtraman.2021.102175},
-url = {https://www.sciencedirect.com/science/article/pii/S0969699721001551},
-author = {J.A. Pavlik and I.G. Ludden and S.H. Jacobson},
-keywords = {Public health, Air travel, COVID-19, Discrete optimization},
-abstract = {Transmission of SARS-CoV-2 between passengers on airplanes is a significant concern and reducing the transmission of SARS-CoV-2 or other viruses aboard aircraft could save lives. Solving the Airplane Seating Assignment Problem (ASAP) produces seating arrangements that minimize transmission risks between passengers aboard an aircraft, but the chosen risk model affects the optimal seating arrangement. We analyze previous risk models and introduce two new risk models, masked and unmasked, based on previous experiments performed aboard real aircraft to test aerosol dispersion of SARS-CoV-2 sized particles. We make recommendations on when each risk model is applicable and the types of seating arrangements that are optimal for each risk model.},
-bibtex_show = true
+  title = {SARS-CoV-2 aerosol risk models for the Airplane Seating Assignment Problem},
+  journal = {Journal of Air Transport Management},
+  volume = {99},
+  pages = {102-175},
+  year = {2022},
+  issn = {0969-6997},
+  doi = {https://doi.org/10.1016/j.jairtraman.2021.102175},
+  url = {https://www.sciencedirect.com/science/article/pii/S0969699721001551},
+  author = {J.A. Pavlik and I.G. Ludden and S.H. Jacobson},
+  keywords = {Public health, Air travel, COVID-19, Discrete optimization},
+  abstract = {Transmission of SARS-CoV-2 between passengers on airplanes is a significant concern and reducing the transmission of SARS-CoV-2 or other viruses aboard aircraft could save lives. Solving the Airplane Seating Assignment Problem (ASAP) produces seating arrangements that minimize transmission risks between passengers aboard an aircraft, but the chosen risk model affects the optimal seating arrangement. We analyze previous risk models and introduce two new risk models, masked and unmasked, based on previous experiments performed aboard real aircraft to test aerosol dispersion of SARS-CoV-2 sized particles. We make recommendations on when each risk model is applicable and the types of seating arrangements that are optimal for each risk model.},
+  bibtex_show = true
 }
 
 @article{Pavlik2021,
-author = {J.A. Pavlik and I.G. Ludden and S.H. Jacobson and E.C. Sewell},
-title = {Airplane Seating Assignment Problem},
-journal = {Service Science},
-volume = {13},
-number = {1},
-pages = {1-18},
-year = {2021},
-doi = {10.1287/serv.2021.0269},
-URL = {https://doi.org/10.1287/serv.2021.0269},
-eprint = {https://doi.org/10.1287/serv.2021.0269}, 
-abstract = {SARS-CoV-2, the virus that causes COVID-19, 
-began infecting humans in late 2019 and has since spread to over 57 million people and caused over 1.75 million deaths, 
-as of December 27, 2020. In response to reduced demand and travel restrictions as a result of COVID-19, 
-airlines experienced a 94% reduction in passenger capacity worldwide in April and an estimated 60% reduction 
-in passengers transported for all of 2020. 
-SARS-CoV-2 has been shown to spread on airplanes by infected passengers, 
-so minimizing the risk of secondary infections aboard aircraft may save lives. 
-We present the airplane seating assignment problem (ASAP) to minimize transmission risks on airplanes, 
-and we provide two models to solve ASAP. 
-We show that both models can be effectively solved using a standard commercial solver and that seating assignments 
-provided by these models have lower aggregate risk than the strategy of blocking the middle seats, 
-given the same number of passengers. The available risk models for aircraft are based on influenza data, 
-and hence risk models based on SARS-CoV-2 should be developed to maximize the benefits of our research.}, 
-bibtex_show = true
+  author = {J.A. Pavlik and I.G. Ludden and S.H. Jacobson and E.C. Sewell},
+  title = {Airplane Seating Assignment Problem},
+  journal = {Service Science},
+  volume = {13},
+  number = {1},
+  pages = {1-18},
+  year = {2021},
+  doi = {10.1287/serv.2021.0269},
+  URL = {https://doi.org/10.1287/serv.2021.0269},
+  eprint = {https://doi.org/10.1287/serv.2021.0269}, 
+  abstract = {SARS-CoV-2, the virus that causes COVID-19, 
+  began infecting humans in late 2019 and has since spread to over 57 million people and caused over 1.75 million deaths, 
+  as of December 27, 2020. In response to reduced demand and travel restrictions as a result of COVID-19, 
+  airlines experienced a 94% reduction in passenger capacity worldwide in April and an estimated 60% reduction 
+  in passengers transported for all of 2020. 
+  SARS-CoV-2 has been shown to spread on airplanes by infected passengers, 
+  so minimizing the risk of secondary infections aboard aircraft may save lives. 
+  We present the airplane seating assignment problem (ASAP) to minimize transmission risks on airplanes, 
+  and we provide two models to solve ASAP. 
+  We show that both models can be effectively solved using a standard commercial solver and that seating assignments 
+  provided by these models have lower aggregate risk than the strategy of blocking the middle seats, 
+  given the same number of passengers. The available risk models for aircraft are based on influenza data, 
+  and hence risk models based on SARS-CoV-2 should be developed to maximize the benefits of our research.}, 
+  bibtex_show = true
 }
 
 @article{Ludden2020,
-author = {I.G. Ludden and A. Khatibi and D.M. King and S.H. Jacobson},
-doi = {doi:10.1515/jqas-2019-0022},
-url = {https://doi.org/10.1515/jqas-2019-0022},
-title = {Models for generating NCAA men's basketball tournament bracket pools},
-journal = {Journal of Quantitative Analysis in Sports},
-number = {1},
-volume = {16},
-year = {2020},
-pages = {1--15},
-lastchecked = {2022-07-22},
-abstract = {Each year, the NCAA Division I Men's Basketball Tournament attracts popular attention, including bracket challenges where fans seek to pick the winners of the tournament's games. However, the quantity and unpredictable nature of games suggest a single bracket will likely select some winning teams incorrectly even if created with insightful and sophisticated methods. Hence, rather than focusing on creating a single bracket to perform well, a challenge participant may wish to create a pool of brackets that likely contains at least one high-scoring bracket. This paper proposes a power model to estimate tournament outcome probabilities based on past tournament data. Bracket pools are generated for the 2013–2019 tournaments using six generators, five using the power model and one using the Bradley-Terry model. The generated brackets are assessed by the ESPN scoring system and compared to those produced by a traditional pick favorite approach as well as the highest scoring brackets in the ESPN Tournament Challenge for each year.}, 
-bibtex_show = true
+  author = {I.G. Ludden and A. Khatibi and D.M. King and S.H. Jacobson},
+  doi = {doi:10.1515/jqas-2019-0022},
+  url = {https://doi.org/10.1515/jqas-2019-0022},
+  title = {Models for generating NCAA men's basketball tournament bracket pools},
+  journal = {Journal of Quantitative Analysis in Sports},
+  number = {1},
+  volume = {16},
+  year = {2020},
+  pages = {1--15},
+  lastchecked = {2022-07-22},
+  abstract = {Each year, the NCAA Division I Men's Basketball Tournament attracts popular attention, including bracket challenges where fans seek to pick the winners of the tournament's games. However, the quantity and unpredictable nature of games suggest a single bracket will likely select some winning teams incorrectly even if created with insightful and sophisticated methods. Hence, rather than focusing on creating a single bracket to perform well, a challenge participant may wish to create a pool of brackets that likely contains at least one high-scoring bracket. This paper proposes a power model to estimate tournament outcome probabilities based on past tournament data. Bracket pools are generated for the 2013–2019 tournaments using six generators, five using the power model and one using the Bradley-Terry model. The generated brackets are assessed by the ESPN scoring system and compared to those produced by a traditional pick favorite approach as well as the highest scoring brackets in the ESPN Tournament Challenge for each year.}, 
+  bibtex_show = true
 }

@@ -1,3 +1,15 @@
+- teaching: 
+    course: "CSSE/MA 474: Object-Oriented Software Development"
+    terms:
+      - termname: Spring 2024
+        site: https://www.rose-hulman.edu/academics/course-catalog/current/programs/Computer%20Science/csse-474.html
+      - termname: Winter 2023-24
+        site: https://www.rose-hulman.edu/academics/course-catalog/current/programs/Computer%20Science/csse-474.html
+- teaching: 
+    course: "CSSE 220: Object-Oriented Software Development"
+    terms:
+      - termname: Fall 2023
+        site: https://www.rose-hulman.edu/academics/course-catalog/current/programs/Computer%20Science/csse-220.html
 - teaching:
     course: "CS 173: Discrete Structures"
     terms:
