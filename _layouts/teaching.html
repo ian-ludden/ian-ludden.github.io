@@ -4,31 +4,35 @@ layout: page
 <div id="teaching">
   <section class="bg"></section>
   <h1 class="title">{{ page.title }}</h1>
-  <ol class="teaching-list">
-    {% for _ in site.data.teaching %}
-      {% assign teaching = _.teaching %}
-      <li>
-        <em class="course">{{ teaching.course }}</em>
-        <ul class="term-list">
-            {% for term in teaching.terms %}
-            <li>
-                <!-- 
-                  {% if term.excellent %}
-                    <span>&dagger;</span>
-                  {% endif %} 
-                -->
-                {%- if term.site %}
-                    <a href="{{ term.site }}" class="btn btn-sm z-depth-0 term" role="button">{{ term.termname }}</a>
-                {%- else %}
-                    <span class="term">{{ term.termname }}</span>
-                {%- endif %}
-                
-                <em class="jobtitle">({{ term.title }})</em>
-                <!-- <p class="comment">{{ term.comment | markdownify }}</p> -->
-            </li>
-            {% endfor %}
-        </ul>
-      </li>
-    {% endfor %}
-  </ol>
+  {% for _ in site.data.teaching %}
+    {% assign institution = _.institution %}
+    <h2>{{ institution.name }}</h2>
+    <ol class="teaching-list">
+      {% for _ in institution.teaching %}
+        {% assign teaching = _.teaching %}
+        <li>
+          <em class="course">{{ teaching.course }}</em>
+          <ul class="term-list">
+              {% for term in teaching.terms %}
+              <li>
+                  <!-- 
+                    {% if term.excellent %}
+                      <span>&dagger;</span>
+                    {% endif %} 
+                  -->
+                  {%- if term.site %}
+                      <a href="{{ term.site }}" class="btn btn-sm z-depth-0 term" role="button">{{ term.termname }}</a>
+                  {%- else %}
+                      <span class="term">{{ term.termname }}</span>
+                  {%- endif %}
+                  
+                  <em class="jobtitle">({{ term.title }})</em>
+                  <!-- <p class="comment">{{ term.comment | markdownify }}</p> -->
+              </li>
+              {% endfor %}
+          </ul>
+        </li>
+      {% endfor %}
+    </ol>
+  {% endfor %}
 </div>
