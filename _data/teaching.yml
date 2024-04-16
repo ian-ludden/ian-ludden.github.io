@@ -1,58 +1,60 @@
 - institution:
-    name: Rose-Hulman Institute of Technology
-  - teaching: 
-      course: "CSSE/MA 474: Object-Oriented Software Development"
-      terms:
-        - termname: Spring 2024
-          site: https://www.rose-hulman.edu/academics/course-catalog/current/programs/Computer%20Science/csse-474.html
-        - termname: Winter 2023-24
-          site: https://www.rose-hulman.edu/academics/course-catalog/current/programs/Computer%20Science/csse-474.html
-  - teaching: 
-      course: "CSSE 220: Object-Oriented Software Development"
-      terms:
-        - termname: Fall 2023
-          site: https://www.rose-hulman.edu/academics/course-catalog/current/programs/Computer%20Science/csse-220.html
+  name: Rose-Hulman Institute of Technology
+  teachings:
+    - teaching: 
+        course: "CSSE/MA 474: Object-Oriented Software Development"
+        terms:
+          - termname: Spring 2024
+            site: https://www.rose-hulman.edu/academics/course-catalog/current/programs/Computer%20Science/csse-474.html
+          - termname: Winter 2023-24
+            site: https://www.rose-hulman.edu/academics/course-catalog/current/programs/Computer%20Science/csse-474.html
+    - teaching: 
+        course: "CSSE 220: Object-Oriented Software Development"
+        terms:
+          - termname: Fall 2023
+            site: https://www.rose-hulman.edu/academics/course-catalog/current/programs/Computer%20Science/csse-220.html
 - institution:
-    name: University of Illinois Urbana-Champaign
-  - teaching:
-      course: "CS 173: Discrete Structures"
-      terms:
-        - termname: Summer 2020
-          title: Instructor of Record
-          site: https://courses.engr.illinois.edu/cs173/su2020/
-        - termname: Spring 2018
-          title: Teaching Assistant
-          site: https://courses.engr.illinois.edu/cs173/sp2018/A-lecture/
-          excellent: True
-        - termname: Fall 2017
-          title: Teaching Assistant
-          site: https://courses.engr.illinois.edu/cs173/fa2017/B-lecture/
-          excellent: True
-  - teaching:
-      course: "CS 374: Algorithms and Models of Computation"
-      terms:
-        - termname: Fall 2019
-          title: Teaching Assistant
-          site: https://courses.engr.illinois.edu/cs374/fa2019/A/
-          excellent: True
-  - teaching:
-      course: "CS 482/IE 413: Simulation"
-      terms: 
-        - termname: Spring 2021
-          title: Teaching Assistant
-          site: 
-        - termname: Spring 2020
-          title: Teaching Assistant
-          site: 
-        - termname: Spring 2019
-          title: Teaching Assistant
-          site: 
-  - teaching:
-      course: "CS 481/IE 410: Stochastic Processes and Applications"
-      terms: 
-        - termname: Fall 2018
-          title: Teaching Assistant
-          site: 
+  name: University of Illinois Urbana-Champaign
+  teachings:
+    - teaching:
+        course: "CS 173: Discrete Structures"
+        terms:
+          - termname: Summer 2020
+            title: Instructor of Record
+            site: https://courses.engr.illinois.edu/cs173/su2020/
+          - termname: Spring 2018
+            title: Teaching Assistant
+            site: https://courses.engr.illinois.edu/cs173/sp2018/A-lecture/
+            excellent: True
+          - termname: Fall 2017
+            title: Teaching Assistant
+            site: https://courses.engr.illinois.edu/cs173/fa2017/B-lecture/
+            excellent: True
+    - teaching:
+        course: "CS 374: Algorithms and Models of Computation"
+        terms:
+          - termname: Fall 2019
+            title: Teaching Assistant
+            site: https://courses.engr.illinois.edu/cs374/fa2019/A/
+            excellent: True
+    - teaching:
+        course: "CS 482/IE 413: Simulation"
+        terms: 
+          - termname: Spring 2021
+            title: Teaching Assistant
+            site: 
+          - termname: Spring 2020
+            title: Teaching Assistant
+            site: 
+          - termname: Spring 2019
+            title: Teaching Assistant
+            site: 
+    - teaching:
+        course: "CS 481/IE 410: Stochastic Processes and Applications"
+        terms: 
+          - termname: Fall 2018
+            title: Teaching Assistant
+            site: 
 
 #comment: This is some comment text that can do _Markdown_
 

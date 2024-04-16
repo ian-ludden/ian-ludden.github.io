@@ -8,7 +8,7 @@ layout: page
     {% assign institution = _.institution %}
     <h2>{{ institution.name }}</h2>
     <ol class="teaching-list">
-      {% for _ in institution.teaching %}
+      {% for _ in institution.teachings %}
         {% assign teaching = _.teaching %}
         <li>
           <em class="course">{{ teaching.course }}</em>
