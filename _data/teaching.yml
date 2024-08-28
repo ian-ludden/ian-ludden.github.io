@@ -13,6 +13,9 @@
       - teaching: 
           course: "CSSE 220: Object-Oriented Software Development"
           terms:
+            - termname: Fall 2024
+              title: Instructor, two sections
+              site: https://www.rose-hulman.edu/academics/course-catalog/current/programs/Computer%20Science/csse-220.html
             - termname: Fall 2023
               title: Instructor, one section
               site: https://www.rose-hulman.edu/academics/course-catalog/current/programs/Computer%20Science/csse-220.html
