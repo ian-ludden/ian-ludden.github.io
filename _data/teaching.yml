@@ -1,6 +1,12 @@
 - institution:
     name: Rose-Hulman Institute of Technology
     teachings:
+      - teaching:
+        course: "CSSE 473: Design and Analysis of Algorithms"
+        terms:
+          - termname: Winter 2024-25
+            title: Instructor, two sections
+            site: https://www.rose-hulman.edu/academics/course-catalog/current/programs/Computer%20Science/csse-473.html
       - teaching: 
           course: "CSSE/MA 474: Theory of Computation"
           terms:
