@@ -14,23 +14,23 @@
         color:#fff;
         margin-bottom: 30px;
     }
-    ol.advice-list{
-        list-style-type: none;
-        li {
-            font-size: 1.05rem;
-            margin-bottom: 1.5rem;
-            .course {
-                font-weight: bolder;
-                font-style: normal;
-            }
-            .date {
-                font-style: normal;
-                margin-left: 0.5rem;
-            }
-        }
-    }
+    // ol.advice-list{
+    //     list-style-type: none;
+    //     li {
+    //         font-size: 1.05rem;
+    //         margin-bottom: 1.5rem;
+    //         .course {
+    //             font-weight: bolder;
+    //             font-style: normal;
+    //         }
+    //         .date {
+    //             font-style: normal;
+    //             margin-left: 0.5rem;
+    //         }
+    //     }
+    // }
     ul.advice-list {
-        list-style-type: none;
+        list-style-type: disc;
         li {
             font-size: 0.95rem;
             margin-bottom: 0.5rem;
