@@ -4,36 +4,51 @@
       - teaching:
           course: "CSSE 490 (Special Topics): Algorithmic Game Theory"
           terms:
+            - termname: Winter 2025-26
+              title: Instructor, one section
+              site: https://catalog.rose-hulman.edu/course-search/?details&srcdb=2025&code=CSSE%20490
             - termname: Spring 2025
-              title: Instructor, two sections
-              site: https://www.rose-hulman.edu/academics/course-catalog/current/programs/Computer%20Science/csse-490.html
+              title: Instructor, one section
+              site: https://catalog.rose-hulman.edu/course-search/?details&srcdb=2025&code=CSSE%20490
       - teaching:
           course: "CSSE 473: Design and Analysis of Algorithms"
           terms:
             - termname: Spring 2025
               title: Instructor, two sections
-              site: https://www.rose-hulman.edu/academics/course-catalog/current/programs/Computer%20Science/csse-473.html
+              site: https://catalog.rose-hulman.edu/course-search/?details&srcdb=2025&code=CSSE%20473
             - termname: Winter 2024-25
               title: Instructor, two sections
-              site: https://www.rose-hulman.edu/academics/course-catalog/current/programs/Computer%20Science/csse-473.html
+              site: https://catalog.rose-hulman.edu/course-search/?details&srcdb=2025&code=CSSE%20473
       - teaching: 
           course: "CSSE/MA 474: Theory of Computation"
           terms:
+            - termname: Spring 2026
+              title: Instructor, two sections
+              site: https://catalog.rose-hulman.edu/course-search/?details&srcdb=2025&code=CSSE%20474
             - termname: Spring 2024
               title: Instructor, two sections
-              site: https://www.rose-hulman.edu/academics/course-catalog/current/programs/Computer%20Science/csse-474.html
+              site: https://catalog.rose-hulman.edu/course-search/?details&srcdb=2025&code=CSSE%20474
             - termname: Winter 2023-24
               title: Instructor, two sections
-              site: https://www.rose-hulman.edu/academics/course-catalog/current/programs/Computer%20Science/csse-474.html
+              site: https://catalog.rose-hulman.edu/course-search/?details&srcdb=2025&code=CSSE%20474
+      - teaching: 
+          course: "CSSE 230: Data Structures and Algorithm Analysis"
+          terms: 
+            - termname: Winter 2025-26
+              title: Instructor, one section
+              site: https://catalog.rose-hulman.edu/course-search/?details&srcdb=2025&code=CSSE%20230
       - teaching: 
           course: "CSSE 220: Object-Oriented Software Development"
           terms:
+            - termname: Fall 2025
+              title: Instructor, two sections
+              site: https://catalog.rose-hulman.edu/course-search/?details&srcdb=2025&code=CSSE%20220
             - termname: Fall 2024
               title: Instructor, two sections
-              site: https://www.rose-hulman.edu/academics/course-catalog/current/programs/Computer%20Science/csse-220.html
+              site: https://catalog.rose-hulman.edu/course-search/?details&srcdb=2025&code=CSSE%20220
             - termname: Fall 2023
               title: Instructor, one section
-              site: https://www.rose-hulman.edu/academics/course-catalog/current/programs/Computer%20Science/csse-220.html
+              site: https://catalog.rose-hulman.edu/course-search/?details&srcdb=2025&code=CSSE%20220
 - institution:
     name: University of Illinois Urbana-Champaign
     teachings:
