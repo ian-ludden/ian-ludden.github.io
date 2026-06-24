@@ -1,11 +1,12 @@
 # Site Settings
+# Do not use trailing slash (i.e. "/Sample"). For skipping base URL, leave empty quotes ("")
 baseurl: ""
 
-# Blog Setting
+# Features Setting
+# Turn subpages on or off
+publications: True
+presentations: True
 blog: False
-
-# Projects Setting
-projects: False
 
 # Language of the website
 lang: en
@@ -62,6 +63,12 @@ scholar:
   first_name: [Ian G., I.G.]
   sort_by: year,month
   order: descending,ascending
+
+# Collection of hub pages
+collections:
+  hubs:
+    output: true
+    permalink: /:name
 
 filtered_bibtex_keywords: [abbr, abstract, arxiv, bibtex_show, html, pdf, selected, supp, blog, code, poster, slides, website] # Filter out certain bibtex entry keywords used internally from the bib output
 
