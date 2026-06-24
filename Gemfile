@@ -5,6 +5,7 @@ gemspec
 
 gem "webrick"
 gem "kramdown-parser-gfm"
+gem "logger"
 
 gem "jekyll", ">= 4.3.0"
 

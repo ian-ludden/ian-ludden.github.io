@@ -146,12 +146,12 @@
         li.award::before {
           content: "•";
           font-size: 200%;
-          color: $theme-color;
+          color: vars.$theme-color;
           padding-right: 5px;
           vertical-align: text-top;
         }
         li.award a {
-          color: $theme-color;
+          color: vars.$theme-color;
           text-decoration: underline;
         }
       }
