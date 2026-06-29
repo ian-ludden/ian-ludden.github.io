@@ -212,7 +212,7 @@
         li.interest::before {
           content: "•";
           font-size: 200%;
-          color: $theme-color;
+          color: vars.$theme-color;
           padding-right: 5px;
           vertical-align: text-top;
         }
@@ -229,7 +229,7 @@
           &::before {
             content: "•";
             font-size: 200%;
-            color: $theme-color;
+            color: vars.$theme-color;
             padding-right: 5px;
             vertical-align: text-top;
           }
@@ -239,7 +239,7 @@
             margin-right: 8px;
           }
           .update-text a {
-            color: $theme-color;
+            color: vars.$theme-color;
             text-decoration: underline;
           }
         }
