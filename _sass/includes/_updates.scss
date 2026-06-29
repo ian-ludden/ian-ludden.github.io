@@ -1,0 +1,44 @@
+#updates {
+  position: relative;
+  overflow: hidden;
+  .updates-wrap {
+    @extend %page-padding;
+    padding-top: 50px !important;
+    margin-bottom: 55px;
+    p.title {
+      color: $theme-dark;
+      font-size: 25px;
+      font-weight: 600;
+    }
+    ul.updates-list {
+      margin-top: 20px;
+      margin-left: 3%;
+      list-style-type: none;
+      li.update {
+        margin: 8px auto;
+        padding-left: 5px;
+        font-size: 1rem;
+        &::before {
+          content: "•";
+          font-size: 200%;
+          color: $theme-color;
+          padding-right: 5px;
+          vertical-align: text-top;
+        }
+        .update-date {
+          font-size: 0.85rem;
+          color: rgba(0, 0, 0, 0.5);
+          font-weight: 600;
+          margin-right: 8px;
+        }
+        .update-text {
+          font-weight: 600;
+          a {
+            color: $theme-color;
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  }
+}

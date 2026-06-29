@@ -215,6 +215,33 @@
           vertical-align: text-top;
         }
       }
+      ul.updates-list {
+        margin-top: 20px;
+        margin-left: 3%;
+        list-style-type: none;
+        li.update {
+          margin: 8px auto;
+          padding-left: 5px;
+          font-size: 1rem;
+          font-weight: 600;
+          &::before {
+            content: "•";
+            font-size: 200%;
+            color: $theme-color;
+            padding-right: 5px;
+            vertical-align: text-top;
+          }
+          .update-date {
+            font-size: 0.85rem;
+            color: rgba(0, 0, 0, 0.5);
+            margin-right: 8px;
+          }
+          .update-text a {
+            color: $theme-color;
+            text-decoration: underline;
+          }
+        }
+      }
       @keyframes progressAnimation {
         from {
           width: 40%;

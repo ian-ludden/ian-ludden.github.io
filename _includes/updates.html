@@ -1,0 +1,9 @@
+<p class="title">{{ site.theme_settings.updates_title }}</p>
+<ul class="updates-list">
+  {% for update in site.data.updates %}
+  <li class="update">
+    <span class="update-date">{{ update.date }}</span>
+    <span class="update-text">{{ update.text | markdownify | remove: '<p>' | remove: '</p>' | strip_newlines }}</span>
+  </li>
+  {% endfor %}
+</ul>

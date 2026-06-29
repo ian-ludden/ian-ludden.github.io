@@ -38,6 +38,7 @@ theme_settings:
   awards_title: AWARDS
   skills_title: ""
   projects_title: ""
+  updates_title: UPDATES
   recentpubs_title: RECENT PUBLICATIONS
 
 # Pagination
